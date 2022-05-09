@@ -22,3 +22,8 @@ ul li{
 .text-style{
     text-decoration: line-through;
 }
+
+
+li span{
+    margin-left: 1.5em;
+}

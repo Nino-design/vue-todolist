@@ -42,7 +42,9 @@ const app = new Vue(
             ],
         },
         methods: {
-
+                 removeItem: function(index){
+                     this.list.splice(index,1);
+                 }
         }
     }
 );        
