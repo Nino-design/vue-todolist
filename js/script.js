@@ -40,10 +40,15 @@ const app = new Vue(
                     done: true
                 }
             ],
+            newItem: ''
         },
         methods: {
                  removeItem: function(index){
                      this.list.splice(index,1);
+                 },
+
+                 addItem: function(){
+                     this.list.push(this.newItem);
                  }
         }
     }

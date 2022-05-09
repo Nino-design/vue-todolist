@@ -27,3 +27,10 @@ ul li{
 li span{
     margin-left: 1.5em;
 }
+
+.add-items{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
