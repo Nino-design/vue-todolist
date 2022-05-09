@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: aqua;
+.list{
+      width: 80%;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+
+ul li{
+    list-style: none;
+    line-height: 1.5em;
+
+}
+
+.text-style{
+    text-decoration: line-through;
 }
